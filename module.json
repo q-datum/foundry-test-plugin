@@ -1,0 +1,23 @@
+{
+    "id": "foundry-test-plugin",
+    "title": "Test Plugin - just for fun",
+    "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+    "authors": [
+        {
+            "name": "Alex Moor"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12"
+    },
+    "relationships": {  
+        "requires": [
+            {
+                "id": "midi-qol",
+                "type": "module"
+            }
+        ]
+    }
+}
